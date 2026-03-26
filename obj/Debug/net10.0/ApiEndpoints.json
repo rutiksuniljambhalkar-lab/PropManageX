@@ -1,0 +1,1134 @@
+[
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.AmenityController",
+    "Method": "GetAllAmenities",
+    "RelativePath": "api/Amenity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.AmenityController",
+    "Method": "CreateAmenity",
+    "RelativePath": "api/Amenity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.PropertyDTOs.AmenityDTOs.CreateAmenityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.AmenityController",
+    "Method": "GetAmenityById",
+    "RelativePath": "api/Amenity/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.AmenityController",
+    "Method": "UpdateAmenity",
+    "RelativePath": "api/Amenity/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.PropertyDTOs.AmenityDTOs.UpdateAmenityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.AmenityController",
+    "Method": "DeleteAmenity",
+    "RelativePath": "api/Amenity/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.IdentityAndRoleManagement.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "PropManageX.DTOs.OAuth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.IdentityAndRoleManagement.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "PropManageX.DTOs.OAuth.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.ContractController",
+    "Method": "GetAllContracts",
+    "RelativePath": "api/Contract",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.ContractController",
+    "Method": "CreateContract",
+    "RelativePath": "api/Contract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createdto",
+        "Type": "PropManageX.DTOs.ContractsLeases_Renewals.CreateContractDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.ContractController",
+    "Method": "GetContractById",
+    "RelativePath": "api/Contract/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.ContractController",
+    "Method": "UpdateContract",
+    "RelativePath": "api/Contract/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.ContractsLeases_Renewals.UpdateContractDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.ContractController",
+    "Method": "DeleteContract",
+    "RelativePath": "api/Contract/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.DealController",
+    "Method": "GetAllDeals",
+    "RelativePath": "api/Deal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.DealController",
+    "Method": "CreateDeal",
+    "RelativePath": "api/Deal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.LeadSalesLeasing.CreateDealDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.DealController",
+    "Method": "GetDealById",
+    "RelativePath": "api/Deal/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.DealController",
+    "Method": "UpdateDeal",
+    "RelativePath": "api/Deal/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.LeadSalesLeasing.UpdateDealDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.DealController",
+    "Method": "DeleteDeal",
+    "RelativePath": "api/Deal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.DocumentController",
+    "Method": "UploadDocument",
+    "RelativePath": "api/Document",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EntityID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.DocumentController",
+    "Method": "GetAllDocuments",
+    "RelativePath": "api/Document",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.DocumentController",
+    "Method": "GetById",
+    "RelativePath": "api/Document/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.DocumentController",
+    "Method": "Delete",
+    "RelativePath": "api/Document/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.DocumentController",
+    "Method": "GetByEntity",
+    "RelativePath": "api/Document/entity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entityId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.InvoiceController",
+    "Method": "CreateInvoice",
+    "RelativePath": "api/Invoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.BillingReference_RevenueAnalytics.CreateInvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.InvoiceController",
+    "Method": "GetInvoices",
+    "RelativePath": "api/Invoice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.InvoiceController",
+    "Method": "GetInvoiceById",
+    "RelativePath": "api/Invoice/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.InvoiceController",
+    "Method": "UpdateInvoiceStatus",
+    "RelativePath": "api/Invoice/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.BillingReference_RevenueAnalytics.UpdateInvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.InvoiceController",
+    "Method": "DeleteInvoice",
+    "RelativePath": "api/Invoice/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.LeadController",
+    "Method": "GetAllLeads",
+    "RelativePath": "api/Lead",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.LeadController",
+    "Method": "CreateLead",
+    "RelativePath": "api/Lead",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.LeadSalesLeasing.CreateLeadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.LeadController",
+    "Method": "GetLeadById",
+    "RelativePath": "api/Lead/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.LeadController",
+    "Method": "UpdateLead",
+    "RelativePath": "api/Lead/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.LeadSalesLeasing.UpdateLeadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.LeadController",
+    "Method": "DeleteLead",
+    "RelativePath": "api/Lead/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.MaintenanceRequestController",
+    "Method": "CreateRequest",
+    "RelativePath": "api/MaintenanceRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.TenantOperationsMaintenanceModule.CreateMaintenanceRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.MaintenanceRequestController",
+    "Method": "GetAllRequests",
+    "RelativePath": "api/MaintenanceRequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.MaintenanceRequestController",
+    "Method": "GetRequestById",
+    "RelativePath": "api/MaintenanceRequest/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.MaintenanceRequestController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/MaintenanceRequest/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.TenantOperationsMaintenanceModule.UpdateMaintenanceRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.MaintenanceRequestController",
+    "Method": "DeleteRequest",
+    "RelativePath": "api/MaintenanceRequest/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder1.NotificationController",
+    "Method": "CreateNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.Notifications_Communications.CreateNotificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder1.NotificationController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder1.NotificationController",
+    "Method": "GetNotificationById",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder1.NotificationController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.Notifications_Communications.UpdateNotificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder1.NotificationController",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.PropertyController",
+    "Method": "GetAllProperties",
+    "RelativePath": "api/Property",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.PropertyController",
+    "Method": "GetPropertyById",
+    "RelativePath": "api/Property/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.PropertyController",
+    "Method": "UpdateProperty",
+    "RelativePath": "api/Property/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.PropertyDTOs.Property.UpdatePropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.PropertyController",
+    "Method": "DeleteProperty",
+    "RelativePath": "api/Property/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.PropertyController",
+    "Method": "CreateProperty",
+    "RelativePath": "api/Property/create-property",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.PropertyDTOs.Property.CreatePropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.RenewalController",
+    "Method": "GetAllRenewals",
+    "RelativePath": "api/Renewal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.RenewalController",
+    "Method": "GetRenewalById",
+    "RelativePath": "api/Renewal/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.RenewalController",
+    "Method": "UpdateRenewal",
+    "RelativePath": "api/Renewal/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.ContractsLeases_Renewals.UpdateRenewalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.RenewalController",
+    "Method": "DeleteRenewal",
+    "RelativePath": "api/Renewal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.RenewalController",
+    "Method": "CreateRenewal",
+    "RelativePath": "api/Renewal/renewcontract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.ContractsLeases_Renewals.CreateRenewalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.RevenueReportController",
+    "Method": "GenerateReport",
+    "RelativePath": "api/RevenueReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.BillingReference_RevenueAnalytics.CreateRevenueReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.RevenueReportController",
+    "Method": "GetReports",
+    "RelativePath": "api/RevenueReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.RevenueReportController",
+    "Method": "GetReportById",
+    "RelativePath": "api/RevenueReport/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.NewFolder.RevenueReportController",
+    "Method": "DeleteReport",
+    "RelativePath": "api/RevenueReport/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.SiteVisitController",
+    "Method": "GetAllVisits",
+    "RelativePath": "api/SiteVisit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.SiteVisitController",
+    "Method": "CreateVisit",
+    "RelativePath": "api/SiteVisit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.LeadSalesLeasing.CreateSiteVisitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.SiteVisitController",
+    "Method": "GetVisitById",
+    "RelativePath": "api/SiteVisit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.SiteVisitController",
+    "Method": "UpdateVisit",
+    "RelativePath": "api/SiteVisit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.LeadSalesLeasing.UpdateSiteVisitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.SiteVisitController",
+    "Method": "DeleteVisit",
+    "RelativePath": "api/SiteVisit/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.UnitController",
+    "Method": "GetAllUnits",
+    "RelativePath": "api/Unit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.UnitController",
+    "Method": "CreateUnit",
+    "RelativePath": "api/Unit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.PropertyDTOs.UnitsDTOs.CreateUnitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.UnitController",
+    "Method": "GetUnitById",
+    "RelativePath": "api/Unit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.UnitController",
+    "Method": "UpdateUnit",
+    "RelativePath": "api/Unit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.PropertyDTOs.UnitsDTOs.UpdateUnitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.PropertyListingInventoryManagement.UnitController",
+    "Method": "DeleteUnit",
+    "RelativePath": "api/Unit/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.VendorAssignmentController",
+    "Method": "AssignVendor",
+    "RelativePath": "api/VendorAssignment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.TenantOperationsMaintenanceModule.CreateVendorAssignmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.VendorAssignmentController",
+    "Method": "GetAssignments",
+    "RelativePath": "api/VendorAssignment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.VendorAssignmentController",
+    "Method": "GetAssignmentById",
+    "RelativePath": "api/VendorAssignment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.VendorAssignmentController",
+    "Method": "UpdateAssignment",
+    "RelativePath": "api/VendorAssignment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PropManageX.DTOs.TenantOperationsMaintenanceModule.UpdateVendorAssignmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropManageX.Controllers.TenantOperationsMaintenanceModule.VendorAssignmentController",
+    "Method": "DeleteAssignment",
+    "RelativePath": "api/VendorAssignment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
